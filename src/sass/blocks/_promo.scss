@@ -1,0 +1,17 @@
+.promo {
+    text-align: center;
+    padding-top: 205px;
+    min-height: 100vh;
+    position: relative;
+    background-color: #000000;
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 24px;
+        color: #ffffff;
+    }
+    &__title {
+        width: 703px;
+        margin-top: 10px;
+    }
+}
