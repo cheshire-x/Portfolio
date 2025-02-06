@@ -1,0 +1,36 @@
+@use 'base/mixins' as m;
+.promo {
+    min-height: 100vh;
+    padding: 333px 0 0 150px;
+    position: relative;
+    background: url('../img/background.png') no-repeat 50%/cover;
+
+    &__title {
+        margin-top: 10px;
+    }
+
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include m.before_circle;
+        
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 25px;
+        width: 305px;
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}

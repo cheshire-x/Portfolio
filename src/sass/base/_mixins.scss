@@ -1,0 +1,14 @@
+@use'base/variables' as v;
+
+@mixin before_circle {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 0;
+        border-radius: 100%;
+        z-index: -1;
+        background-color: v.$main-color;
+    }
+}

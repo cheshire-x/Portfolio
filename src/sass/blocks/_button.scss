@@ -1,0 +1,8 @@
+@use'base/variables' as v;
+
+.btn {
+    border-radius: 50px;
+    height: 50px;
+    background: v.$main-color;
+    padding: 13px 30px;
+}

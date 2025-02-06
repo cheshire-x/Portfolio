@@ -1,0 +1,22 @@
+@use 'libs/bootstrap-reboot.min.css';
+@use 'blocks/promo';
+@use 'blocks/title';
+@use 'blocks/button';
+@use 'blocks/sidepanel';
+@use 'blocks/hamburger';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100..700&display=swap');
+
+
+
+* {
+    font-family: "Victor Mono", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
